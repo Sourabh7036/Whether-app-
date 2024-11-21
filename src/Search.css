@@ -1,0 +1,9 @@
+.Searchbox{
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.info_data{
+    display: flex;
+    justify-content: end;
+}

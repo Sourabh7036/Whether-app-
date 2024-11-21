@@ -7,8 +7,8 @@ import { useState } from 'react';
 export default function Search({ updateinfo }){
   let [city, setcity] = useState("");
   let [error , seterror] = useState(false);
-  const Api_URL = "http://api.openweathermap.org/geo/1.0/direct";
-  const Api_key = "b133b49543d95577deb5005fbba14980";
+  // # Enter your key api link
+  // # Enter here your api key 
 
   let whetherinfo =  async () =>{
     try{
@@ -33,7 +33,7 @@ export default function Search({ updateinfo }){
     setcity(event.target.value);
    
   }
-  // b133b49543d95577deb5005fbba14980
+  
 
   let handlesubmit =  async (evt) =>{
     try{
